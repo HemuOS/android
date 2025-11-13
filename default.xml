@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="hemu" fetch="https://github.com/HemuOS" />
+  <default revision="lineage-22.1" remote="hemu" sync-j="4" />
+
+  <project name="android_frameworks_base" path="frameworks/base" />
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" />
+  <project name="android_vendor_lineage" path="vendor/lineage" />
+  <!-- Add more projects as needed -->
+</manifest>
